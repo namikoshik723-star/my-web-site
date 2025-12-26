@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<style>
+  body {
+    background-color: #f2f2f2;
+  }
+
+  .box {
+  background-color: white;
+  max-width: 300px;
+  padding: 20px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+
+  h1 {
+    color: red;
+  }
+  button {
+  background-color: #ff7a00;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+ul {
+  text-align: left;
+  padding-left: 20px;
+  margin: 20px 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.price {
+  font-weight: bold;
+  margin: 15px 0;
+}
+</style><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>はじめてのWeb</title>
+</head>
+<body>
+
+<div class="box">
+  <img src="images/photo.jpg" alt="写真">
+
+  <h1>Web制作いたします</h1>
+
+  <p>シンプルで見やすいWebページを作ります。</p>
+
+  <ul>
+    <li>トップページ制作（1ページ）</li>
+    <li>スマホ対応</li>
+    <li>シンプルなデザイン</li>
+  </ul>
+
+  <p class="price">料金：10,000円〜</p>
+
+  <button id="myButton">お問い合わせ</button>
+</div>
+
+<script>
+  document.getElementById("myButton").onclick = function () {
+   alert("お問い合わせありがとうございます！");
+  };
+</script>
+</body>
+</html>
